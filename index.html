@@ -1,104 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Spanish Flashcards</title>
-
-<style>
-body {
-  font-family: -apple-system;
-  background: #111;
-  color: white;
-  margin: 0;
-  text-align: center;
-}
-
-.screen { padding: 20px; }
-
-button {
-  width: 100%;
-  padding: 14px;
-  margin: 8px 0;
-  font-size: 16px;
-  border: none;
-  border-radius: 12px;
-  background: #222;
-  color: white;
-}
-
-.card {
-  background: #1c1c22;
-  padding: 50px 20px;
-  font-size: 28px;
-  border-radius: 20px;
-  margin-top: 20px;
-}
-
-.hidden { display: none; }
-
-.topbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-</style>
-</head>
-
-<body>
-
-<!-- CATEGORY MENU -->
-<div id="menu" class="screen">
-  <h2>Select Category</h2>
-  <button onclick="selectCategory('fundamentals')">Fundamentals</button>
-  <button onclick="selectCategory('greetings')">Greetings</button>
-  <button onclick="selectCategory('work_school')">Work & School</button>
-  <button onclick="selectCategory('past_future')">Past & Future</button>
-  <button onclick="selectCategory('daily_life')">Daily Life</button>
-  <button onclick="selectCategory('travel')">Travel</button>
-  <button onclick="selectCategory('business_advanced')">Business Advanced</button>
-  <button onclick="selectCategory('emotions')">Emotions</button>
-  <button onclick="selectCategory('conversation_builders')">Conversation Builders</button>
-</div>
-
-<!-- LEVEL MENU -->
-<div id="levels" class="screen hidden">
-  <h2>Select Level</h2>
-  <button onclick="selectLevel(1)">Level 1</button>
-  <button onclick="selectLevel(2)">Level 2</button>
-  <button onclick="selectLevel(3)">Level 3</button>
-  <button onclick="selectLevel(4)">Level 4</button>
-  <button onclick="selectLevel(5)">Level 5</button>
-  <button onclick="selectLevel(6)">Level 6</button>
-  <button onclick="selectLevel(7)">Level 7</button>
-  <button onclick="selectLevel(8)">Level 8</button>
-  <button onclick="selectLevel(9)">Level 9</button>
-  <button onclick="selectLevel(10)">Level 10</button>
-  <button onclick="selectLevel('all')">All Levels</button>
-  <button onclick="goBack()">← Back</button>
-</div>
-
-<!-- STUDY SCREEN -->
-<div id="study" class="screen hidden">
-  <div class="topbar">
-    <button onclick="exitStudy()">Menu</button>
-    <div id="counter"></div>
-  </div>
-
-  <div id="card" class="card">Loading...</div>
-
-  <button onclick="flipCard()">Flip</button>
-  <button onclick="prevCard()">Prev</button>
-  <button onclick="nextCard()">Next</button>
-  <button onclick="shuffle()">🔀 Shuffle</button>
-</div>
-
-<script>
 let words = [];
 let filtered = [];
 let current = 0;
 let flipped = false;
 let selectedCategory = "";
-let selectedLevel = 1;
 
 fetch("words.json")
 .then(r=>r.json())
@@ -108,24 +12,10 @@ fetch("words.json")
 
 function selectCategory(cat){
   selectedCategory = cat;
-  document.getElementById("menu").classList.add("hidden");
-  document.getElementById("levels").classList.remove("hidden");
-}
-
-function selectLevel(level){
-  selectedLevel = level;
-
-  if(level === "all"){
-    filtered = words.filter(w => w.category === selectedCategory);
-  } else {
-    filtered = words.filter(w => 
-      w.category === selectedCategory &&
-      w.level === level
-    );
-  }
-
+  filtered = words.filter(w => w.category === cat);
   shuffle();
-  document.getElementById("levels").classList.add("hidden");
+
+  document.getElementById("menu").classList.add("hidden");
   document.getElementById("study").classList.remove("hidden");
 }
 
@@ -165,22 +55,12 @@ function shuffle(){
     const j = Math.floor(Math.random() * (i + 1));
     [filtered[i], filtered[j]] = [filtered[j], filtered[i]];
   }
-
   current = 0;
   flipped = false;
   updateCard();
-}
-
-function goBack(){
-  document.getElementById("levels").classList.add("hidden");
-  document.getElementById("menu").classList.remove("hidden");
 }
 
 function exitStudy(){
   document.getElementById("study").classList.add("hidden");
   document.getElementById("menu").classList.remove("hidden");
 }
-</script>
-
-</body>
-</html>
