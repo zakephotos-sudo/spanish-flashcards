@@ -29,345 +29,2991 @@
   },
   {
     "id": 5,
-    "es": "de nada",
-    "en": "you're welcome",
+    "es": "hola",
+    "en": "hello",
     "category": "fundamentals",
     "level": 1
   },
   {
     "id": 6,
-    "es": "lo siento",
-    "en": "I'm sorry",
+    "es": "adiós",
+    "en": "goodbye",
     "category": "fundamentals",
     "level": 1
   },
   {
     "id": 7,
-    "es": "perdón",
-    "en": "excuse me",
-    "category": "fundamentals",
-    "level": 1
-  },
-  {
-    "id": 8,
-    "es": "aquí",
-    "en": "here",
-    "category": "fundamentals",
-    "level": 1
-  },
-  {
-    "id": 9,
-    "es": "allí",
-    "en": "there",
-    "category": "fundamentals",
-    "level": 1
-  },
-  {
-    "id": 10,
     "es": "hoy",
     "en": "today",
     "category": "fundamentals",
     "level": 1
   },
   {
-    "id": 11,
+    "id": 8,
     "es": "mañana",
     "en": "tomorrow",
     "category": "fundamentals",
     "level": 1
   },
   {
-    "id": 12,
+    "id": 9,
     "es": "ayer",
     "en": "yesterday",
     "category": "fundamentals",
     "level": 1
   },
   {
+    "id": 10,
+    "es": "aquí",
+    "en": "here",
+    "category": "fundamentals",
+    "level": 1
+  },
+  {
+    "id": 11,
+    "es": "allí",
+    "en": "there",
+    "category": "fundamentals",
+    "level": 1
+  },
+  {
+    "id": 12,
+    "es": "yo ser",
+    "en": "I to be",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
     "id": 13,
-    "es": "ser",
-    "en": "to be (permanent)",
+    "es": "tú ser",
+    "en": "you (informal) to be",
     "category": "fundamentals",
     "level": 2
   },
   {
     "id": 14,
-    "es": "estar",
-    "en": "to be (temporary)",
+    "es": "él/ella ser",
+    "en": "he/she to be",
     "category": "fundamentals",
     "level": 2
   },
   {
     "id": 15,
-    "es": "tener",
-    "en": "to have",
+    "es": "nosotros ser",
+    "en": "we to be",
     "category": "fundamentals",
     "level": 2
   },
   {
     "id": 16,
-    "es": "hacer",
-    "en": "to do / to make",
+    "es": "ellos ser",
+    "en": "they to be",
     "category": "fundamentals",
     "level": 2
   },
   {
     "id": 17,
-    "es": "ir",
-    "en": "to go",
+    "es": "yo estar",
+    "en": "I to be",
     "category": "fundamentals",
     "level": 2
   },
   {
     "id": 18,
-    "es": "decir",
-    "en": "to say",
+    "es": "tú estar",
+    "en": "you (informal) to be",
     "category": "fundamentals",
     "level": 2
   },
   {
     "id": 19,
-    "es": "ver",
-    "en": "to see",
+    "es": "él/ella estar",
+    "en": "he/she to be",
     "category": "fundamentals",
     "level": 2
   },
   {
     "id": 20,
-    "es": "dar",
-    "en": "to give",
+    "es": "nosotros estar",
+    "en": "we to be",
     "category": "fundamentals",
     "level": 2
   },
   {
     "id": 21,
-    "es": "saber",
-    "en": "to know (facts)",
+    "es": "ellos estar",
+    "en": "they to be",
     "category": "fundamentals",
     "level": 2
   },
   {
     "id": 22,
-    "es": "conocer",
-    "en": "to know (people/places)",
+    "es": "yo tener",
+    "en": "I to have",
     "category": "fundamentals",
     "level": 2
   },
   {
     "id": 23,
-    "es": "No entiendo.",
-    "en": "I don't understand.",
+    "es": "tú tener",
+    "en": "you (informal) to have",
     "category": "fundamentals",
-    "level": 3
+    "level": 2
   },
   {
     "id": 24,
-    "es": "Entiendo.",
-    "en": "I understand.",
+    "es": "él/ella tener",
+    "en": "he/she to have",
     "category": "fundamentals",
-    "level": 3
+    "level": 2
   },
   {
     "id": 25,
-    "es": "¿Puedes repetir?",
-    "en": "Can you repeat?",
+    "es": "nosotros tener",
+    "en": "we to have",
     "category": "fundamentals",
-    "level": 3
+    "level": 2
   },
   {
     "id": 26,
-    "es": "Más despacio, por favor.",
-    "en": "More slowly, please.",
+    "es": "ellos tener",
+    "en": "they to have",
     "category": "fundamentals",
-    "level": 3
+    "level": 2
   },
   {
     "id": 27,
-    "es": "Estoy aprendiendo español.",
-    "en": "I am learning Spanish.",
+    "es": "yo hacer",
+    "en": "I to do/make",
     "category": "fundamentals",
-    "level": 3
+    "level": 2
   },
   {
     "id": 28,
-    "es": "Estoy practicando.",
-    "en": "I am practicing.",
+    "es": "tú hacer",
+    "en": "you (informal) to do/make",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 29,
+    "es": "él/ella hacer",
+    "en": "he/she to do/make",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 30,
+    "es": "nosotros hacer",
+    "en": "we to do/make",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 31,
+    "es": "ellos hacer",
+    "en": "they to do/make",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 32,
+    "es": "yo ir",
+    "en": "I to go",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 33,
+    "es": "tú ir",
+    "en": "you (informal) to go",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 34,
+    "es": "él/ella ir",
+    "en": "he/she to go",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 35,
+    "es": "nosotros ir",
+    "en": "we to go",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 36,
+    "es": "ellos ir",
+    "en": "they to go",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 37,
+    "es": "yo decir",
+    "en": "I to say",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 38,
+    "es": "tú decir",
+    "en": "you (informal) to say",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 39,
+    "es": "él/ella decir",
+    "en": "he/she to say",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 40,
+    "es": "nosotros decir",
+    "en": "we to say",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 41,
+    "es": "ellos decir",
+    "en": "they to say",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 42,
+    "es": "yo poder",
+    "en": "I to be able to",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 43,
+    "es": "tú poder",
+    "en": "you (informal) to be able to",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 44,
+    "es": "él/ella poder",
+    "en": "he/she to be able to",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 45,
+    "es": "nosotros poder",
+    "en": "we to be able to",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 46,
+    "es": "ellos poder",
+    "en": "they to be able to",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 47,
+    "es": "yo querer",
+    "en": "I to want",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 48,
+    "es": "tú querer",
+    "en": "you (informal) to want",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 49,
+    "es": "él/ella querer",
+    "en": "he/she to want",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 50,
+    "es": "nosotros querer",
+    "en": "we to want",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 51,
+    "es": "ellos querer",
+    "en": "they to want",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 52,
+    "es": "yo necesitar",
+    "en": "I to need",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 53,
+    "es": "tú necesitar",
+    "en": "you (informal) to need",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 54,
+    "es": "él/ella necesitar",
+    "en": "he/she to need",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 55,
+    "es": "nosotros necesitar",
+    "en": "we to need",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 56,
+    "es": "ellos necesitar",
+    "en": "they to need",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 57,
+    "es": "yo trabajar",
+    "en": "I to work",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 58,
+    "es": "tú trabajar",
+    "en": "you (informal) to work",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 59,
+    "es": "él/ella trabajar",
+    "en": "he/she to work",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 60,
+    "es": "nosotros trabajar",
+    "en": "we to work",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 61,
+    "es": "ellos trabajar",
+    "en": "they to work",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 62,
+    "es": "yo vivir",
+    "en": "I to live",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 63,
+    "es": "tú vivir",
+    "en": "you (informal) to live",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 64,
+    "es": "él/ella vivir",
+    "en": "he/she to live",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 65,
+    "es": "nosotros vivir",
+    "en": "we to live",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 66,
+    "es": "ellos vivir",
+    "en": "they to live",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 67,
+    "es": "yo comer",
+    "en": "I to eat",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 68,
+    "es": "tú comer",
+    "en": "you (informal) to eat",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 69,
+    "es": "él/ella comer",
+    "en": "he/she to eat",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 70,
+    "es": "nosotros comer",
+    "en": "we to eat",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 71,
+    "es": "ellos comer",
+    "en": "they to eat",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 72,
+    "es": "yo beber",
+    "en": "I to drink",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 73,
+    "es": "tú beber",
+    "en": "you (informal) to drink",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 74,
+    "es": "él/ella beber",
+    "en": "he/she to drink",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 75,
+    "es": "nosotros beber",
+    "en": "we to drink",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 76,
+    "es": "ellos beber",
+    "en": "they to drink",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 77,
+    "es": "yo aprender",
+    "en": "I to learn",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 78,
+    "es": "tú aprender",
+    "en": "you (informal) to learn",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 79,
+    "es": "él/ella aprender",
+    "en": "he/she to learn",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 80,
+    "es": "nosotros aprender",
+    "en": "we to learn",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 81,
+    "es": "ellos aprender",
+    "en": "they to learn",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 82,
+    "es": "yo pensar",
+    "en": "I to think",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 83,
+    "es": "tú pensar",
+    "en": "you (informal) to think",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 84,
+    "es": "él/ella pensar",
+    "en": "he/she to think",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 85,
+    "es": "nosotros pensar",
+    "en": "we to think",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 86,
+    "es": "ellos pensar",
+    "en": "they to think",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 87,
+    "es": "yo ser",
+    "en": "I to be",
     "category": "fundamentals",
     "level": 3
   },
   {
-    "id": 29,
-    "es": "Hola, ¿cómo estás?",
-    "en": "Hi, how are you?",
-    "category": "greetings",
-    "level": 1
+    "id": 88,
+    "es": "tú ser",
+    "en": "you (informal) to be",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 30,
-    "es": "Mucho gusto.",
-    "en": "Nice to meet you.",
-    "category": "greetings",
-    "level": 1
+    "id": 89,
+    "es": "él/ella ser",
+    "en": "he/she to be",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 31,
-    "es": "¿De dónde eres?",
-    "en": "Where are you from?",
-    "category": "greetings",
-    "level": 1
+    "id": 90,
+    "es": "nosotros ser",
+    "en": "we to be",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 32,
-    "es": "Soy de Estados Unidos.",
-    "en": "I am from the United States.",
-    "category": "greetings",
-    "level": 1
+    "id": 91,
+    "es": "ellos ser",
+    "en": "they to be",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 33,
-    "es": "¿A qué te dedicas?",
-    "en": "What do you do?",
-    "category": "greetings",
-    "level": 1
+    "id": 92,
+    "es": "yo estar",
+    "en": "I to be",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 34,
-    "es": "Trabajo en marketing.",
-    "en": "I work in marketing.",
-    "category": "greetings",
-    "level": 1
+    "id": 93,
+    "es": "tú estar",
+    "en": "you (informal) to be",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 35,
-    "es": "Qué gusto verte.",
-    "en": "Nice to see you.",
-    "category": "greetings",
-    "level": 1
+    "id": 94,
+    "es": "él/ella estar",
+    "en": "he/she to be",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 36,
-    "es": "Hace mucho que no te veo.",
-    "en": "Long time no see.",
-    "category": "greetings",
-    "level": 1
+    "id": 95,
+    "es": "nosotros estar",
+    "en": "we to be",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 37,
-    "es": "Espero verte pronto.",
-    "en": "I hope to see you soon.",
-    "category": "greetings",
-    "level": 1
+    "id": 96,
+    "es": "ellos estar",
+    "en": "they to be",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 38,
-    "es": "trabajo",
-    "en": "work/job",
-    "category": "work_school",
-    "level": 1
+    "id": 97,
+    "es": "yo tener",
+    "en": "I to have",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 39,
-    "es": "reunión",
-    "en": "meeting",
-    "category": "work_school",
-    "level": 1
+    "id": 98,
+    "es": "tú tener",
+    "en": "you (informal) to have",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 40,
-    "es": "oficina",
-    "en": "office",
-    "category": "work_school",
-    "level": 1
+    "id": 99,
+    "es": "él/ella tener",
+    "en": "he/she to have",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 41,
-    "es": "correo electrónico",
-    "en": "email",
-    "category": "work_school",
-    "level": 1
+    "id": 100,
+    "es": "nosotros tener",
+    "en": "we to have",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 42,
-    "es": "proyecto",
-    "en": "project",
-    "category": "work_school",
-    "level": 1
+    "id": 101,
+    "es": "ellos tener",
+    "en": "they to have",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 43,
-    "es": "equipo",
-    "en": "team",
-    "category": "work_school",
-    "level": 1
+    "id": 102,
+    "es": "yo hacer",
+    "en": "I to do/make",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 44,
-    "es": "empresa",
-    "en": "company",
-    "category": "work_school",
-    "level": 1
+    "id": 103,
+    "es": "tú hacer",
+    "en": "you (informal) to do/make",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 45,
-    "es": "cliente",
-    "en": "client",
-    "category": "work_school",
-    "level": 1
+    "id": 104,
+    "es": "él/ella hacer",
+    "en": "he/she to do/make",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 46,
-    "es": "presentación",
-    "en": "presentation",
-    "category": "work_school",
-    "level": 1
+    "id": 105,
+    "es": "nosotros hacer",
+    "en": "we to do/make",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 47,
-    "es": "contrato",
-    "en": "contract",
-    "category": "work_school",
-    "level": 1
+    "id": 106,
+    "es": "ellos hacer",
+    "en": "they to do/make",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 48,
-    "es": "Ayer fui al trabajo.",
-    "en": "Yesterday I went to work.",
-    "category": "past_future",
-    "level": 1
+    "id": 107,
+    "es": "yo ir",
+    "en": "I to go",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 49,
-    "es": "Mañana tendremos una reunión.",
-    "en": "Tomorrow we will have a meeting.",
-    "category": "past_future",
-    "level": 1
+    "id": 108,
+    "es": "tú ir",
+    "en": "you (informal) to go",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 50,
-    "es": "El año pasado",
-    "en": "Last year",
-    "category": "past_future",
-    "level": 1
+    "id": 109,
+    "es": "él/ella ir",
+    "en": "he/she to go",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 51,
-    "es": "El próximo año",
-    "en": "Next year",
-    "category": "past_future",
-    "level": 1
+    "id": 110,
+    "es": "nosotros ir",
+    "en": "we to go",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 52,
-    "es": "Hace dos días",
-    "en": "Two days ago",
-    "category": "past_future",
-    "level": 1
+    "id": 111,
+    "es": "ellos ir",
+    "en": "they to go",
+    "category": "fundamentals",
+    "level": 3
   },
   {
-    "id": 53,
-    "es": "En el futuro",
-    "en": "In the future",
-    "category": "past_future",
-    "level": 1
+    "id": 112,
+    "es": "yo decir",
+    "en": "I to say",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 113,
+    "es": "tú decir",
+    "en": "you (informal) to say",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 114,
+    "es": "él/ella decir",
+    "en": "he/she to say",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 115,
+    "es": "nosotros decir",
+    "en": "we to say",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 116,
+    "es": "ellos decir",
+    "en": "they to say",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 117,
+    "es": "yo poder",
+    "en": "I to be able to",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 118,
+    "es": "tú poder",
+    "en": "you (informal) to be able to",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 119,
+    "es": "él/ella poder",
+    "en": "he/she to be able to",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 120,
+    "es": "nosotros poder",
+    "en": "we to be able to",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 121,
+    "es": "ellos poder",
+    "en": "they to be able to",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 122,
+    "es": "yo querer",
+    "en": "I to want",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 123,
+    "es": "tú querer",
+    "en": "you (informal) to want",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 124,
+    "es": "él/ella querer",
+    "en": "he/she to want",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 125,
+    "es": "nosotros querer",
+    "en": "we to want",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 126,
+    "es": "ellos querer",
+    "en": "they to want",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 127,
+    "es": "yo necesitar",
+    "en": "I to need",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 128,
+    "es": "tú necesitar",
+    "en": "you (informal) to need",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 129,
+    "es": "él/ella necesitar",
+    "en": "he/she to need",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 130,
+    "es": "nosotros necesitar",
+    "en": "we to need",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 131,
+    "es": "ellos necesitar",
+    "en": "they to need",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 132,
+    "es": "yo trabajar",
+    "en": "I to work",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 133,
+    "es": "tú trabajar",
+    "en": "you (informal) to work",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 134,
+    "es": "él/ella trabajar",
+    "en": "he/she to work",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 135,
+    "es": "nosotros trabajar",
+    "en": "we to work",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 136,
+    "es": "ellos trabajar",
+    "en": "they to work",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 137,
+    "es": "yo vivir",
+    "en": "I to live",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 138,
+    "es": "tú vivir",
+    "en": "you (informal) to live",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 139,
+    "es": "él/ella vivir",
+    "en": "he/she to live",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 140,
+    "es": "nosotros vivir",
+    "en": "we to live",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 141,
+    "es": "ellos vivir",
+    "en": "they to live",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 142,
+    "es": "yo comer",
+    "en": "I to eat",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 143,
+    "es": "tú comer",
+    "en": "you (informal) to eat",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 144,
+    "es": "él/ella comer",
+    "en": "he/she to eat",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 145,
+    "es": "nosotros comer",
+    "en": "we to eat",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 146,
+    "es": "ellos comer",
+    "en": "they to eat",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 147,
+    "es": "yo beber",
+    "en": "I to drink",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 148,
+    "es": "tú beber",
+    "en": "you (informal) to drink",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 149,
+    "es": "él/ella beber",
+    "en": "he/she to drink",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 150,
+    "es": "nosotros beber",
+    "en": "we to drink",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 151,
+    "es": "ellos beber",
+    "en": "they to drink",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 152,
+    "es": "yo aprender",
+    "en": "I to learn",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 153,
+    "es": "tú aprender",
+    "en": "you (informal) to learn",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 154,
+    "es": "él/ella aprender",
+    "en": "he/she to learn",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 155,
+    "es": "nosotros aprender",
+    "en": "we to learn",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 156,
+    "es": "ellos aprender",
+    "en": "they to learn",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 157,
+    "es": "yo pensar",
+    "en": "I to think",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 158,
+    "es": "tú pensar",
+    "en": "you (informal) to think",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 159,
+    "es": "él/ella pensar",
+    "en": "he/she to think",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 160,
+    "es": "nosotros pensar",
+    "en": "we to think",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 161,
+    "es": "ellos pensar",
+    "en": "they to think",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 162,
+    "es": "yo ser",
+    "en": "I to be",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 163,
+    "es": "tú ser",
+    "en": "you (informal) to be",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 164,
+    "es": "él/ella ser",
+    "en": "he/she to be",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 165,
+    "es": "nosotros ser",
+    "en": "we to be",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 166,
+    "es": "ellos ser",
+    "en": "they to be",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 167,
+    "es": "yo estar",
+    "en": "I to be",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 168,
+    "es": "tú estar",
+    "en": "you (informal) to be",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 169,
+    "es": "él/ella estar",
+    "en": "he/she to be",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 170,
+    "es": "nosotros estar",
+    "en": "we to be",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 171,
+    "es": "ellos estar",
+    "en": "they to be",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 172,
+    "es": "yo tener",
+    "en": "I to have",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 173,
+    "es": "tú tener",
+    "en": "you (informal) to have",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 174,
+    "es": "él/ella tener",
+    "en": "he/she to have",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 175,
+    "es": "nosotros tener",
+    "en": "we to have",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 176,
+    "es": "ellos tener",
+    "en": "they to have",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 177,
+    "es": "yo hacer",
+    "en": "I to do/make",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 178,
+    "es": "tú hacer",
+    "en": "you (informal) to do/make",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 179,
+    "es": "él/ella hacer",
+    "en": "he/she to do/make",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 180,
+    "es": "nosotros hacer",
+    "en": "we to do/make",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 181,
+    "es": "ellos hacer",
+    "en": "they to do/make",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 182,
+    "es": "yo ir",
+    "en": "I to go",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 183,
+    "es": "tú ir",
+    "en": "you (informal) to go",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 184,
+    "es": "él/ella ir",
+    "en": "he/she to go",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 185,
+    "es": "nosotros ir",
+    "en": "we to go",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 186,
+    "es": "ellos ir",
+    "en": "they to go",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 187,
+    "es": "yo decir",
+    "en": "I to say",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 188,
+    "es": "tú decir",
+    "en": "you (informal) to say",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 189,
+    "es": "él/ella decir",
+    "en": "he/she to say",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 190,
+    "es": "nosotros decir",
+    "en": "we to say",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 191,
+    "es": "ellos decir",
+    "en": "they to say",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 192,
+    "es": "yo poder",
+    "en": "I to be able to",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 193,
+    "es": "tú poder",
+    "en": "you (informal) to be able to",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 194,
+    "es": "él/ella poder",
+    "en": "he/she to be able to",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 195,
+    "es": "nosotros poder",
+    "en": "we to be able to",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 196,
+    "es": "ellos poder",
+    "en": "they to be able to",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 197,
+    "es": "yo querer",
+    "en": "I to want",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 198,
+    "es": "tú querer",
+    "en": "you (informal) to want",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 199,
+    "es": "él/ella querer",
+    "en": "he/she to want",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 200,
+    "es": "nosotros querer",
+    "en": "we to want",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 201,
+    "es": "ellos querer",
+    "en": "they to want",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 202,
+    "es": "yo necesitar",
+    "en": "I to need",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 203,
+    "es": "tú necesitar",
+    "en": "you (informal) to need",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 204,
+    "es": "él/ella necesitar",
+    "en": "he/she to need",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 205,
+    "es": "nosotros necesitar",
+    "en": "we to need",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 206,
+    "es": "ellos necesitar",
+    "en": "they to need",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 207,
+    "es": "yo trabajar",
+    "en": "I to work",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 208,
+    "es": "tú trabajar",
+    "en": "you (informal) to work",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 209,
+    "es": "él/ella trabajar",
+    "en": "he/she to work",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 210,
+    "es": "nosotros trabajar",
+    "en": "we to work",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 211,
+    "es": "ellos trabajar",
+    "en": "they to work",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 212,
+    "es": "yo vivir",
+    "en": "I to live",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 213,
+    "es": "tú vivir",
+    "en": "you (informal) to live",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 214,
+    "es": "él/ella vivir",
+    "en": "he/she to live",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 215,
+    "es": "nosotros vivir",
+    "en": "we to live",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 216,
+    "es": "ellos vivir",
+    "en": "they to live",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 217,
+    "es": "yo comer",
+    "en": "I to eat",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 218,
+    "es": "tú comer",
+    "en": "you (informal) to eat",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 219,
+    "es": "él/ella comer",
+    "en": "he/she to eat",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 220,
+    "es": "nosotros comer",
+    "en": "we to eat",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 221,
+    "es": "ellos comer",
+    "en": "they to eat",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 222,
+    "es": "yo beber",
+    "en": "I to drink",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 223,
+    "es": "tú beber",
+    "en": "you (informal) to drink",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 224,
+    "es": "él/ella beber",
+    "en": "he/she to drink",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 225,
+    "es": "nosotros beber",
+    "en": "we to drink",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 226,
+    "es": "ellos beber",
+    "en": "they to drink",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 227,
+    "es": "yo aprender",
+    "en": "I to learn",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 228,
+    "es": "tú aprender",
+    "en": "you (informal) to learn",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 229,
+    "es": "él/ella aprender",
+    "en": "he/she to learn",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 230,
+    "es": "nosotros aprender",
+    "en": "we to learn",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 231,
+    "es": "ellos aprender",
+    "en": "they to learn",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 232,
+    "es": "yo pensar",
+    "en": "I to think",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 233,
+    "es": "tú pensar",
+    "en": "you (informal) to think",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 234,
+    "es": "él/ella pensar",
+    "en": "he/she to think",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 235,
+    "es": "nosotros pensar",
+    "en": "we to think",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 236,
+    "es": "ellos pensar",
+    "en": "they to think",
+    "category": "fundamentals",
+    "level": 4
+  },
+  {
+    "id": 237,
+    "es": "yo ser",
+    "en": "I to be",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 238,
+    "es": "tú ser",
+    "en": "you (informal) to be",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 239,
+    "es": "él/ella ser",
+    "en": "he/she to be",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 240,
+    "es": "nosotros ser",
+    "en": "we to be",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 241,
+    "es": "ellos ser",
+    "en": "they to be",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 242,
+    "es": "yo estar",
+    "en": "I to be",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 243,
+    "es": "tú estar",
+    "en": "you (informal) to be",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 244,
+    "es": "él/ella estar",
+    "en": "he/she to be",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 245,
+    "es": "nosotros estar",
+    "en": "we to be",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 246,
+    "es": "ellos estar",
+    "en": "they to be",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 247,
+    "es": "yo tener",
+    "en": "I to have",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 248,
+    "es": "tú tener",
+    "en": "you (informal) to have",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 249,
+    "es": "él/ella tener",
+    "en": "he/she to have",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 250,
+    "es": "nosotros tener",
+    "en": "we to have",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 251,
+    "es": "ellos tener",
+    "en": "they to have",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 252,
+    "es": "yo hacer",
+    "en": "I to do/make",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 253,
+    "es": "tú hacer",
+    "en": "you (informal) to do/make",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 254,
+    "es": "él/ella hacer",
+    "en": "he/she to do/make",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 255,
+    "es": "nosotros hacer",
+    "en": "we to do/make",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 256,
+    "es": "ellos hacer",
+    "en": "they to do/make",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 257,
+    "es": "yo ir",
+    "en": "I to go",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 258,
+    "es": "tú ir",
+    "en": "you (informal) to go",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 259,
+    "es": "él/ella ir",
+    "en": "he/she to go",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 260,
+    "es": "nosotros ir",
+    "en": "we to go",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 261,
+    "es": "ellos ir",
+    "en": "they to go",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 262,
+    "es": "yo decir",
+    "en": "I to say",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 263,
+    "es": "tú decir",
+    "en": "you (informal) to say",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 264,
+    "es": "él/ella decir",
+    "en": "he/she to say",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 265,
+    "es": "nosotros decir",
+    "en": "we to say",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 266,
+    "es": "ellos decir",
+    "en": "they to say",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 267,
+    "es": "yo poder",
+    "en": "I to be able to",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 268,
+    "es": "tú poder",
+    "en": "you (informal) to be able to",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 269,
+    "es": "él/ella poder",
+    "en": "he/she to be able to",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 270,
+    "es": "nosotros poder",
+    "en": "we to be able to",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 271,
+    "es": "ellos poder",
+    "en": "they to be able to",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 272,
+    "es": "yo querer",
+    "en": "I to want",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 273,
+    "es": "tú querer",
+    "en": "you (informal) to want",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 274,
+    "es": "él/ella querer",
+    "en": "he/she to want",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 275,
+    "es": "nosotros querer",
+    "en": "we to want",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 276,
+    "es": "ellos querer",
+    "en": "they to want",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 277,
+    "es": "yo necesitar",
+    "en": "I to need",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 278,
+    "es": "tú necesitar",
+    "en": "you (informal) to need",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 279,
+    "es": "él/ella necesitar",
+    "en": "he/she to need",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 280,
+    "es": "nosotros necesitar",
+    "en": "we to need",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 281,
+    "es": "ellos necesitar",
+    "en": "they to need",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 282,
+    "es": "yo trabajar",
+    "en": "I to work",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 283,
+    "es": "tú trabajar",
+    "en": "you (informal) to work",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 284,
+    "es": "él/ella trabajar",
+    "en": "he/she to work",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 285,
+    "es": "nosotros trabajar",
+    "en": "we to work",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 286,
+    "es": "ellos trabajar",
+    "en": "they to work",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 287,
+    "es": "yo vivir",
+    "en": "I to live",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 288,
+    "es": "tú vivir",
+    "en": "you (informal) to live",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 289,
+    "es": "él/ella vivir",
+    "en": "he/she to live",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 290,
+    "es": "nosotros vivir",
+    "en": "we to live",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 291,
+    "es": "ellos vivir",
+    "en": "they to live",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 292,
+    "es": "yo comer",
+    "en": "I to eat",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 293,
+    "es": "tú comer",
+    "en": "you (informal) to eat",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 294,
+    "es": "él/ella comer",
+    "en": "he/she to eat",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 295,
+    "es": "nosotros comer",
+    "en": "we to eat",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 296,
+    "es": "ellos comer",
+    "en": "they to eat",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 297,
+    "es": "yo beber",
+    "en": "I to drink",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 298,
+    "es": "tú beber",
+    "en": "you (informal) to drink",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 299,
+    "es": "él/ella beber",
+    "en": "he/she to drink",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 300,
+    "es": "nosotros beber",
+    "en": "we to drink",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 301,
+    "es": "ellos beber",
+    "en": "they to drink",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 302,
+    "es": "yo aprender",
+    "en": "I to learn",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 303,
+    "es": "tú aprender",
+    "en": "you (informal) to learn",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 304,
+    "es": "él/ella aprender",
+    "en": "he/she to learn",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 305,
+    "es": "nosotros aprender",
+    "en": "we to learn",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 306,
+    "es": "ellos aprender",
+    "en": "they to learn",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 307,
+    "es": "yo pensar",
+    "en": "I to think",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 308,
+    "es": "tú pensar",
+    "en": "you (informal) to think",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 309,
+    "es": "él/ella pensar",
+    "en": "he/she to think",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 310,
+    "es": "nosotros pensar",
+    "en": "we to think",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 311,
+    "es": "ellos pensar",
+    "en": "they to think",
+    "category": "fundamentals",
+    "level": 5
+  },
+  {
+    "id": 312,
+    "es": "casa",
+    "en": "house",
+    "category": "daily_life",
+    "level": 4
+  },
+  {
+    "id": 313,
+    "es": "familia",
+    "en": "family",
+    "category": "daily_life",
+    "level": 4
+  },
+  {
+    "id": 314,
+    "es": "amigo",
+    "en": "friend",
+    "category": "daily_life",
+    "level": 4
+  },
+  {
+    "id": 315,
+    "es": "comida",
+    "en": "food",
+    "category": "daily_life",
+    "level": 4
+  },
+  {
+    "id": 316,
+    "es": "agua",
+    "en": "water",
+    "category": "daily_life",
+    "level": 4
+  },
+  {
+    "id": 317,
+    "es": "dinero",
+    "en": "money",
+    "category": "daily_life",
+    "level": 4
+  },
+  {
+    "id": 318,
+    "es": "ropa",
+    "en": "clothes",
+    "category": "daily_life",
+    "level": 4
+  },
+  {
+    "id": 319,
+    "es": "teléfono",
+    "en": "phone",
+    "category": "daily_life",
+    "level": 4
+  },
+  {
+    "id": 320,
+    "es": "libro",
+    "en": "book",
+    "category": "daily_life",
+    "level": 4
+  },
+  {
+    "id": 321,
+    "es": "ciudad",
+    "en": "city",
+    "category": "daily_life",
+    "level": 4
+  },
+  {
+    "id": 322,
+    "es": "casa",
+    "en": "house",
+    "category": "daily_life",
+    "level": 5
+  },
+  {
+    "id": 323,
+    "es": "familia",
+    "en": "family",
+    "category": "daily_life",
+    "level": 5
+  },
+  {
+    "id": 324,
+    "es": "amigo",
+    "en": "friend",
+    "category": "daily_life",
+    "level": 5
+  },
+  {
+    "id": 325,
+    "es": "comida",
+    "en": "food",
+    "category": "daily_life",
+    "level": 5
+  },
+  {
+    "id": 326,
+    "es": "agua",
+    "en": "water",
+    "category": "daily_life",
+    "level": 5
+  },
+  {
+    "id": 327,
+    "es": "dinero",
+    "en": "money",
+    "category": "daily_life",
+    "level": 5
+  },
+  {
+    "id": 328,
+    "es": "ropa",
+    "en": "clothes",
+    "category": "daily_life",
+    "level": 5
+  },
+  {
+    "id": 329,
+    "es": "teléfono",
+    "en": "phone",
+    "category": "daily_life",
+    "level": 5
+  },
+  {
+    "id": 330,
+    "es": "libro",
+    "en": "book",
+    "category": "daily_life",
+    "level": 5
+  },
+  {
+    "id": 331,
+    "es": "ciudad",
+    "en": "city",
+    "category": "daily_life",
+    "level": 5
+  },
+  {
+    "id": 332,
+    "es": "casa",
+    "en": "house",
+    "category": "daily_life",
+    "level": 6
+  },
+  {
+    "id": 333,
+    "es": "familia",
+    "en": "family",
+    "category": "daily_life",
+    "level": 6
+  },
+  {
+    "id": 334,
+    "es": "amigo",
+    "en": "friend",
+    "category": "daily_life",
+    "level": 6
+  },
+  {
+    "id": 335,
+    "es": "comida",
+    "en": "food",
+    "category": "daily_life",
+    "level": 6
+  },
+  {
+    "id": 336,
+    "es": "agua",
+    "en": "water",
+    "category": "daily_life",
+    "level": 6
+  },
+  {
+    "id": 337,
+    "es": "dinero",
+    "en": "money",
+    "category": "daily_life",
+    "level": 6
+  },
+  {
+    "id": 338,
+    "es": "ropa",
+    "en": "clothes",
+    "category": "daily_life",
+    "level": 6
+  },
+  {
+    "id": 339,
+    "es": "teléfono",
+    "en": "phone",
+    "category": "daily_life",
+    "level": 6
+  },
+  {
+    "id": 340,
+    "es": "libro",
+    "en": "book",
+    "category": "daily_life",
+    "level": 6
+  },
+  {
+    "id": 341,
+    "es": "ciudad",
+    "en": "city",
+    "category": "daily_life",
+    "level": 6
+  },
+  {
+    "id": 342,
+    "es": "¿Dónde está el hotel?",
+    "en": "Where is the hotel?",
+    "category": "travel",
+    "level": 5
+  },
+  {
+    "id": 343,
+    "es": "Necesito un taxi.",
+    "en": "I need a taxi.",
+    "category": "travel",
+    "level": 5
+  },
+  {
+    "id": 344,
+    "es": "Tengo una reserva.",
+    "en": "I have a reservation.",
+    "category": "travel",
+    "level": 5
+  },
+  {
+    "id": 345,
+    "es": "¿Cuánto cuesta?",
+    "en": "How much does it cost?",
+    "category": "travel",
+    "level": 5
+  },
+  {
+    "id": 346,
+    "es": "Perdí mi pasaporte.",
+    "en": "I lost my passport.",
+    "category": "travel",
+    "level": 5
+  },
+  {
+    "id": 347,
+    "es": "¿Dónde está el hotel?",
+    "en": "Where is the hotel?",
+    "category": "travel",
+    "level": 6
+  },
+  {
+    "id": 348,
+    "es": "Necesito un taxi.",
+    "en": "I need a taxi.",
+    "category": "travel",
+    "level": 6
+  },
+  {
+    "id": 349,
+    "es": "Tengo una reserva.",
+    "en": "I have a reservation.",
+    "category": "travel",
+    "level": 6
+  },
+  {
+    "id": 350,
+    "es": "¿Cuánto cuesta?",
+    "en": "How much does it cost?",
+    "category": "travel",
+    "level": 6
+  },
+  {
+    "id": 351,
+    "es": "Perdí mi pasaporte.",
+    "en": "I lost my passport.",
+    "category": "travel",
+    "level": 6
+  },
+  {
+    "id": 352,
+    "es": "¿Dónde está el hotel?",
+    "en": "Where is the hotel?",
+    "category": "travel",
+    "level": 7
+  },
+  {
+    "id": 353,
+    "es": "Necesito un taxi.",
+    "en": "I need a taxi.",
+    "category": "travel",
+    "level": 7
+  },
+  {
+    "id": 354,
+    "es": "Tengo una reserva.",
+    "en": "I have a reservation.",
+    "category": "travel",
+    "level": 7
+  },
+  {
+    "id": 355,
+    "es": "¿Cuánto cuesta?",
+    "en": "How much does it cost?",
+    "category": "travel",
+    "level": 7
+  },
+  {
+    "id": 356,
+    "es": "Perdí mi pasaporte.",
+    "en": "I lost my passport.",
+    "category": "travel",
+    "level": 7
+  },
+  {
+    "id": 357,
+    "es": "estrategia",
+    "en": "strategy",
+    "category": "business_advanced",
+    "level": 6
+  },
+  {
+    "id": 358,
+    "es": "mercado",
+    "en": "market",
+    "category": "business_advanced",
+    "level": 6
+  },
+  {
+    "id": 359,
+    "es": "presupuesto",
+    "en": "budget",
+    "category": "business_advanced",
+    "level": 6
+  },
+  {
+    "id": 360,
+    "es": "inversión",
+    "en": "investment",
+    "category": "business_advanced",
+    "level": 6
+  },
+  {
+    "id": 361,
+    "es": "rentabilidad",
+    "en": "profitability",
+    "category": "business_advanced",
+    "level": 6
+  },
+  {
+    "id": 362,
+    "es": "liderazgo",
+    "en": "leadership",
+    "category": "business_advanced",
+    "level": 6
+  },
+  {
+    "id": 363,
+    "es": "negociación",
+    "en": "negotiation",
+    "category": "business_advanced",
+    "level": 6
+  },
+  {
+    "id": 364,
+    "es": "objetivo",
+    "en": "goal",
+    "category": "business_advanced",
+    "level": 6
+  },
+  {
+    "id": 365,
+    "es": "crecimiento",
+    "en": "growth",
+    "category": "business_advanced",
+    "level": 6
+  },
+  {
+    "id": 366,
+    "es": "análisis",
+    "en": "analysis",
+    "category": "business_advanced",
+    "level": 6
+  },
+  {
+    "id": 367,
+    "es": "estrategia",
+    "en": "strategy",
+    "category": "business_advanced",
+    "level": 7
+  },
+  {
+    "id": 368,
+    "es": "mercado",
+    "en": "market",
+    "category": "business_advanced",
+    "level": 7
+  },
+  {
+    "id": 369,
+    "es": "presupuesto",
+    "en": "budget",
+    "category": "business_advanced",
+    "level": 7
+  },
+  {
+    "id": 370,
+    "es": "inversión",
+    "en": "investment",
+    "category": "business_advanced",
+    "level": 7
+  },
+  {
+    "id": 371,
+    "es": "rentabilidad",
+    "en": "profitability",
+    "category": "business_advanced",
+    "level": 7
+  },
+  {
+    "id": 372,
+    "es": "liderazgo",
+    "en": "leadership",
+    "category": "business_advanced",
+    "level": 7
+  },
+  {
+    "id": 373,
+    "es": "negociación",
+    "en": "negotiation",
+    "category": "business_advanced",
+    "level": 7
+  },
+  {
+    "id": 374,
+    "es": "objetivo",
+    "en": "goal",
+    "category": "business_advanced",
+    "level": 7
+  },
+  {
+    "id": 375,
+    "es": "crecimiento",
+    "en": "growth",
+    "category": "business_advanced",
+    "level": 7
+  },
+  {
+    "id": 376,
+    "es": "análisis",
+    "en": "analysis",
+    "category": "business_advanced",
+    "level": 7
+  },
+  {
+    "id": 377,
+    "es": "estrategia",
+    "en": "strategy",
+    "category": "business_advanced",
+    "level": 8
+  },
+  {
+    "id": 378,
+    "es": "mercado",
+    "en": "market",
+    "category": "business_advanced",
+    "level": 8
+  },
+  {
+    "id": 379,
+    "es": "presupuesto",
+    "en": "budget",
+    "category": "business_advanced",
+    "level": 8
+  },
+  {
+    "id": 380,
+    "es": "inversión",
+    "en": "investment",
+    "category": "business_advanced",
+    "level": 8
+  },
+  {
+    "id": 381,
+    "es": "rentabilidad",
+    "en": "profitability",
+    "category": "business_advanced",
+    "level": 8
+  },
+  {
+    "id": 382,
+    "es": "liderazgo",
+    "en": "leadership",
+    "category": "business_advanced",
+    "level": 8
+  },
+  {
+    "id": 383,
+    "es": "negociación",
+    "en": "negotiation",
+    "category": "business_advanced",
+    "level": 8
+  },
+  {
+    "id": 384,
+    "es": "objetivo",
+    "en": "goal",
+    "category": "business_advanced",
+    "level": 8
+  },
+  {
+    "id": 385,
+    "es": "crecimiento",
+    "en": "growth",
+    "category": "business_advanced",
+    "level": 8
+  },
+  {
+    "id": 386,
+    "es": "análisis",
+    "en": "analysis",
+    "category": "business_advanced",
+    "level": 8
+  },
+  {
+    "id": 387,
+    "es": "feliz",
+    "en": "happy",
+    "category": "emotions",
+    "level": 7
+  },
+  {
+    "id": 388,
+    "es": "triste",
+    "en": "sad",
+    "category": "emotions",
+    "level": 7
+  },
+  {
+    "id": 389,
+    "es": "enojado",
+    "en": "angry",
+    "category": "emotions",
+    "level": 7
+  },
+  {
+    "id": 390,
+    "es": "emocionado",
+    "en": "excited",
+    "category": "emotions",
+    "level": 7
+  },
+  {
+    "id": 391,
+    "es": "nervioso",
+    "en": "nervous",
+    "category": "emotions",
+    "level": 7
+  },
+  {
+    "id": 392,
+    "es": "orgulloso",
+    "en": "proud",
+    "category": "emotions",
+    "level": 7
+  },
+  {
+    "id": 393,
+    "es": "agradecido",
+    "en": "grateful",
+    "category": "emotions",
+    "level": 7
+  },
+  {
+    "id": 394,
+    "es": "feliz",
+    "en": "happy",
+    "category": "emotions",
+    "level": 8
+  },
+  {
+    "id": 395,
+    "es": "triste",
+    "en": "sad",
+    "category": "emotions",
+    "level": 8
+  },
+  {
+    "id": 396,
+    "es": "enojado",
+    "en": "angry",
+    "category": "emotions",
+    "level": 8
+  },
+  {
+    "id": 397,
+    "es": "emocionado",
+    "en": "excited",
+    "category": "emotions",
+    "level": 8
+  },
+  {
+    "id": 398,
+    "es": "nervioso",
+    "en": "nervous",
+    "category": "emotions",
+    "level": 8
+  },
+  {
+    "id": 399,
+    "es": "orgulloso",
+    "en": "proud",
+    "category": "emotions",
+    "level": 8
+  },
+  {
+    "id": 400,
+    "es": "agradecido",
+    "en": "grateful",
+    "category": "emotions",
+    "level": 8
+  },
+  {
+    "id": 401,
+    "es": "feliz",
+    "en": "happy",
+    "category": "emotions",
+    "level": 9
+  },
+  {
+    "id": 402,
+    "es": "triste",
+    "en": "sad",
+    "category": "emotions",
+    "level": 9
+  },
+  {
+    "id": 403,
+    "es": "enojado",
+    "en": "angry",
+    "category": "emotions",
+    "level": 9
+  },
+  {
+    "id": 404,
+    "es": "emocionado",
+    "en": "excited",
+    "category": "emotions",
+    "level": 9
+  },
+  {
+    "id": 405,
+    "es": "nervioso",
+    "en": "nervous",
+    "category": "emotions",
+    "level": 9
+  },
+  {
+    "id": 406,
+    "es": "orgulloso",
+    "en": "proud",
+    "category": "emotions",
+    "level": 9
+  },
+  {
+    "id": 407,
+    "es": "agradecido",
+    "en": "grateful",
+    "category": "emotions",
+    "level": 9
+  },
+  {
+    "id": 408,
+    "es": "En mi opinión",
+    "en": "In my opinion",
+    "category": "conversation_builders",
+    "level": 8
+  },
+  {
+    "id": 409,
+    "es": "Creo que...",
+    "en": "I believe that...",
+    "category": "conversation_builders",
+    "level": 8
+  },
+  {
+    "id": 410,
+    "es": "Sin embargo",
+    "en": "However",
+    "category": "conversation_builders",
+    "level": 8
+  },
+  {
+    "id": 411,
+    "es": "Por otro lado",
+    "en": "On the other hand",
+    "category": "conversation_builders",
+    "level": 8
+  },
+  {
+    "id": 412,
+    "es": "Además",
+    "en": "In addition",
+    "category": "conversation_builders",
+    "level": 8
+  },
+  {
+    "id": 413,
+    "es": "Estoy de acuerdo.",
+    "en": "I agree.",
+    "category": "conversation_builders",
+    "level": 8
+  },
+  {
+    "id": 414,
+    "es": "No estoy de acuerdo.",
+    "en": "I disagree.",
+    "category": "conversation_builders",
+    "level": 8
+  },
+  {
+    "id": 415,
+    "es": "Tiene sentido.",
+    "en": "That makes sense.",
+    "category": "conversation_builders",
+    "level": 8
+  },
+  {
+    "id": 416,
+    "es": "En mi opinión",
+    "en": "In my opinion",
+    "category": "conversation_builders",
+    "level": 9
+  },
+  {
+    "id": 417,
+    "es": "Creo que...",
+    "en": "I believe that...",
+    "category": "conversation_builders",
+    "level": 9
+  },
+  {
+    "id": 418,
+    "es": "Sin embargo",
+    "en": "However",
+    "category": "conversation_builders",
+    "level": 9
+  },
+  {
+    "id": 419,
+    "es": "Por otro lado",
+    "en": "On the other hand",
+    "category": "conversation_builders",
+    "level": 9
+  },
+  {
+    "id": 420,
+    "es": "Además",
+    "en": "In addition",
+    "category": "conversation_builders",
+    "level": 9
+  },
+  {
+    "id": 421,
+    "es": "Estoy de acuerdo.",
+    "en": "I agree.",
+    "category": "conversation_builders",
+    "level": 9
+  },
+  {
+    "id": 422,
+    "es": "No estoy de acuerdo.",
+    "en": "I disagree.",
+    "category": "conversation_builders",
+    "level": 9
+  },
+  {
+    "id": 423,
+    "es": "Tiene sentido.",
+    "en": "That makes sense.",
+    "category": "conversation_builders",
+    "level": 9
+  },
+  {
+    "id": 424,
+    "es": "En mi opinión",
+    "en": "In my opinion",
+    "category": "conversation_builders",
+    "level": 10
+  },
+  {
+    "id": 425,
+    "es": "Creo que...",
+    "en": "I believe that...",
+    "category": "conversation_builders",
+    "level": 10
+  },
+  {
+    "id": 426,
+    "es": "Sin embargo",
+    "en": "However",
+    "category": "conversation_builders",
+    "level": 10
+  },
+  {
+    "id": 427,
+    "es": "Por otro lado",
+    "en": "On the other hand",
+    "category": "conversation_builders",
+    "level": 10
+  },
+  {
+    "id": 428,
+    "es": "Además",
+    "en": "In addition",
+    "category": "conversation_builders",
+    "level": 10
+  },
+  {
+    "id": 429,
+    "es": "Estoy de acuerdo.",
+    "en": "I agree.",
+    "category": "conversation_builders",
+    "level": 10
+  },
+  {
+    "id": 430,
+    "es": "No estoy de acuerdo.",
+    "en": "I disagree.",
+    "category": "conversation_builders",
+    "level": 10
+  },
+  {
+    "id": 431,
+    "es": "Tiene sentido.",
+    "en": "That makes sense.",
+    "category": "conversation_builders",
+    "level": 10
   }
 ]
