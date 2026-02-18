@@ -1,142 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Spanish Flashcards</title>
-<meta name="theme-color" content="#111111">
-<link rel="manifest" href="manifest.json">
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spanish Trainer</title>
 <style>
-body {
-  margin:0;
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
-  background:#0f0f12;
-  color:white;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  height:100vh;
-}
-
-.container {
-  width:90%;
-  max-width:600px;
-  text-align:center;
-}
-
-.card {
-  background:#1c1c22;
-  border-radius:20px;
-  padding:40px 20px;
-  font-size:32px;
-  font-weight:600;
-  min-height:150px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  cursor:pointer;
-  transition:transform .2s ease;
-}
-
-.card:active {
-  transform:scale(.98);
-}
-
-.controls {
-  margin-top:20px;
-  display:flex;
-  gap:10px;
-}
-
-button {
-  flex:1;
-  padding:12px;
-  font-size:16px;
-  border:none;
-  border-radius:12px;
-  background:#2a2a33;
-  color:white;
-}
-
-button:active {
-  transform:scale(.97);
-}
-
-.counter {
-  margin-top:10px;
-  opacity:.6;
-  font-size:14px;
-}
+body { font-family:-apple-system; background:#111; color:white; margin:0; }
+.screen { padding:20px; }
+button { padding:12px; margin:5px 0; width:100%; border:none; border-radius:10px; background:#222; color:white; }
+.card { background:#1d1d25; padding:40px 20px; font-size:28px; text-align:center; border-radius:20px; margin-top:20px; }
+.hidden { display:none; }
+.topbar { display:flex; justify-content:space-between; }
+.small { font-size:12px; opacity:.6; }
 </style>
 </head>
-
 <body>
-<div class="container">
-  <div id="card" class="card">Loading...</div>
 
-  <div class="controls">
-    <button onclick="prevCard()">Prev</button>
-    <button onclick="flipCard()">Flip</button>
-    <button onclick="nextCard()">Next</button>
+<div id="menu" class="screen">
+  <h2>Select Category</h2>
+  <button onclick="selectCategory('everyday')">Everyday</button>
+  <button onclick="selectCategory('travel')">Travel</button>
+  <button onclick="selectCategory('business')">Business</button>
+</div>
+
+<div id="levels" class="screen hidden">
+  <h2>Select Level</h2>
+  <button onclick="selectLevel(1)">Level 1</button>
+  <button onclick="selectLevel(2)">Level 2</button>
+  <button onclick="selectLevel(3)">Level 3</button>
+  <button onclick="goBack()">Back</button>
+</div>
+
+<div id="study" class="screen hidden">
+  <div class="topbar">
+    <button onclick="exitStudy()">Menu</button>
+    <div id="progress" class="small"></div>
   </div>
 
-  <div id="counter" class="counter"></div>
+  <div id="card" class="card" onclick="flipCard()">Loading...</div>
+
+  <button onclick="markCorrect()">Correct</button>
+  <button onclick="markWrong()">Wrong</button>
+  <button onclick="playAudio()">🔊 Pronounce</button>
+  <button onclick="shuffle()">🔀 Shuffle</button>
 </div>
 
 <script>
 let words = [];
-let currentIndex = 0;
+let filtered = [];
+let current = 0;
 let flipped = false;
+let selectedCategory = "";
+let selectedLevel = 1;
 
-// Load words
 fetch("words.json")
-  .then(res => res.json())
-  .then(data => {
-    words = data;
-    updateCard();
-  });
+.then(r=>r.json())
+.then(data=>{
+  words = data;
+});
 
-// Update display
-function updateCard() {
-  if (!words.length) return;
-
-  const card = document.getElementById("card");
-  const counter = document.getElementById("counter");
-
-  card.textContent = flipped
-    ? words[currentIndex].en
-    : words[currentIndex].es;
-
-  counter.textContent = (currentIndex + 1) + " / " + words.length;
+function selectCategory(cat){
+  selectedCategory = cat;
+  menu.classList.add("hidden");
+  levels.classList.remove("hidden");
 }
 
-// Flip
-function flipCard() {
-  flipped = !flipped;
+function selectLevel(level){
+  selectedLevel = level;
+  filtered = words.filter(w=>w.category===selectedCategory && w.level===level);
+  current=0;
+  flipped=false;
+  levels.classList.add("hidden");
+  study.classList.remove("hidden");
   updateCard();
 }
 
-// Next
-function nextCard() {
-  currentIndex = (currentIndex + 1) % words.length;
-  flipped = false;
+function updateCard(){
+  if(!filtered.length){ card.textContent="No words"; return;}
+  let word = filtered[current];
+  card.textContent = flipped ? word.en : word.es;
+  progress.textContent = (current+1)+" / "+filtered.length;
+}
+
+function flipCard(){ flipped=!flipped; updateCard(); }
+
+function markCorrect(){
+  let word = filtered[current];
+  word.correct = (word.correct||0)+1;
+  nextCard();
+}
+
+function markWrong(){
+  let word = filtered[current];
+  word.correct = 0;
+  nextCard();
+}
+
+function nextCard(){
+  current=(current+1)%filtered.length;
+  flipped=false;
+  updateCard();
+  localStorage.setItem("progress", JSON.stringify(words));
+}
+
+function shuffle(){
+  filtered.sort(()=>Math.random()-0.5);
+  current=0;
   updateCard();
 }
 
-// Prev
-function prevCard() {
-  currentIndex = (currentIndex - 1 + words.length) % words.length;
-  flipped = false;
-  updateCard();
+function playAudio(){
+  let utter = new SpeechSynthesisUtterance(filtered[current].es);
+  utter.lang="es-ES";
+  speechSynthesis.speak(utter);
 }
 
-// Tap card to flip
-document.getElementById("card").addEventListener("click", flipCard);
+function goBack(){
+  levels.classList.add("hidden");
+  menu.classList.remove("hidden");
+}
 
-// Service Worker (offline)
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("sw.js");
+function exitStudy(){
+  study.classList.add("hidden");
+  menu.classList.remove("hidden");
 }
 </script>
 

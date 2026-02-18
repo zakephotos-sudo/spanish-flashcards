@@ -1,12 +1,373 @@
 [
-  { "es": "hola", "en": "hello" },
-  { "es": "gracias", "en": "thank you" },
-  { "es": "por favor", "en": "please" },
-  { "es": "buenos días", "en": "good morning" },
-  { "es": "¿Dónde está el baño?", "en": "Where is the bathroom?" },
-  { "es": "el aeropuerto", "en": "airport" },
-  { "es": "el hotel", "en": "hotel" },
-  { "es": "la reunión", "en": "meeting" },
-  { "es": "el contrato", "en": "contract" },
-  { "es": "el presupuesto", "en": "budget" }
+  {
+    "id": 1,
+    "es": "sí",
+    "en": "yes",
+    "category": "fundamentals",
+    "level": 1
+  },
+  {
+    "id": 2,
+    "es": "no",
+    "en": "no",
+    "category": "fundamentals",
+    "level": 1
+  },
+  {
+    "id": 3,
+    "es": "por favor",
+    "en": "please",
+    "category": "fundamentals",
+    "level": 1
+  },
+  {
+    "id": 4,
+    "es": "gracias",
+    "en": "thank you",
+    "category": "fundamentals",
+    "level": 1
+  },
+  {
+    "id": 5,
+    "es": "de nada",
+    "en": "you're welcome",
+    "category": "fundamentals",
+    "level": 1
+  },
+  {
+    "id": 6,
+    "es": "lo siento",
+    "en": "I'm sorry",
+    "category": "fundamentals",
+    "level": 1
+  },
+  {
+    "id": 7,
+    "es": "perdón",
+    "en": "excuse me",
+    "category": "fundamentals",
+    "level": 1
+  },
+  {
+    "id": 8,
+    "es": "aquí",
+    "en": "here",
+    "category": "fundamentals",
+    "level": 1
+  },
+  {
+    "id": 9,
+    "es": "allí",
+    "en": "there",
+    "category": "fundamentals",
+    "level": 1
+  },
+  {
+    "id": 10,
+    "es": "hoy",
+    "en": "today",
+    "category": "fundamentals",
+    "level": 1
+  },
+  {
+    "id": 11,
+    "es": "mañana",
+    "en": "tomorrow",
+    "category": "fundamentals",
+    "level": 1
+  },
+  {
+    "id": 12,
+    "es": "ayer",
+    "en": "yesterday",
+    "category": "fundamentals",
+    "level": 1
+  },
+  {
+    "id": 13,
+    "es": "ser",
+    "en": "to be (permanent)",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 14,
+    "es": "estar",
+    "en": "to be (temporary)",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 15,
+    "es": "tener",
+    "en": "to have",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 16,
+    "es": "hacer",
+    "en": "to do / to make",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 17,
+    "es": "ir",
+    "en": "to go",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 18,
+    "es": "decir",
+    "en": "to say",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 19,
+    "es": "ver",
+    "en": "to see",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 20,
+    "es": "dar",
+    "en": "to give",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 21,
+    "es": "saber",
+    "en": "to know (facts)",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 22,
+    "es": "conocer",
+    "en": "to know (people/places)",
+    "category": "fundamentals",
+    "level": 2
+  },
+  {
+    "id": 23,
+    "es": "No entiendo.",
+    "en": "I don't understand.",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 24,
+    "es": "Entiendo.",
+    "en": "I understand.",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 25,
+    "es": "¿Puedes repetir?",
+    "en": "Can you repeat?",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 26,
+    "es": "Más despacio, por favor.",
+    "en": "More slowly, please.",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 27,
+    "es": "Estoy aprendiendo español.",
+    "en": "I am learning Spanish.",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 28,
+    "es": "Estoy practicando.",
+    "en": "I am practicing.",
+    "category": "fundamentals",
+    "level": 3
+  },
+  {
+    "id": 29,
+    "es": "Hola, ¿cómo estás?",
+    "en": "Hi, how are you?",
+    "category": "greetings",
+    "level": 1
+  },
+  {
+    "id": 30,
+    "es": "Mucho gusto.",
+    "en": "Nice to meet you.",
+    "category": "greetings",
+    "level": 1
+  },
+  {
+    "id": 31,
+    "es": "¿De dónde eres?",
+    "en": "Where are you from?",
+    "category": "greetings",
+    "level": 1
+  },
+  {
+    "id": 32,
+    "es": "Soy de Estados Unidos.",
+    "en": "I am from the United States.",
+    "category": "greetings",
+    "level": 1
+  },
+  {
+    "id": 33,
+    "es": "¿A qué te dedicas?",
+    "en": "What do you do?",
+    "category": "greetings",
+    "level": 1
+  },
+  {
+    "id": 34,
+    "es": "Trabajo en marketing.",
+    "en": "I work in marketing.",
+    "category": "greetings",
+    "level": 1
+  },
+  {
+    "id": 35,
+    "es": "Qué gusto verte.",
+    "en": "Nice to see you.",
+    "category": "greetings",
+    "level": 1
+  },
+  {
+    "id": 36,
+    "es": "Hace mucho que no te veo.",
+    "en": "Long time no see.",
+    "category": "greetings",
+    "level": 1
+  },
+  {
+    "id": 37,
+    "es": "Espero verte pronto.",
+    "en": "I hope to see you soon.",
+    "category": "greetings",
+    "level": 1
+  },
+  {
+    "id": 38,
+    "es": "trabajo",
+    "en": "work/job",
+    "category": "work_school",
+    "level": 1
+  },
+  {
+    "id": 39,
+    "es": "reunión",
+    "en": "meeting",
+    "category": "work_school",
+    "level": 1
+  },
+  {
+    "id": 40,
+    "es": "oficina",
+    "en": "office",
+    "category": "work_school",
+    "level": 1
+  },
+  {
+    "id": 41,
+    "es": "correo electrónico",
+    "en": "email",
+    "category": "work_school",
+    "level": 1
+  },
+  {
+    "id": 42,
+    "es": "proyecto",
+    "en": "project",
+    "category": "work_school",
+    "level": 1
+  },
+  {
+    "id": 43,
+    "es": "equipo",
+    "en": "team",
+    "category": "work_school",
+    "level": 1
+  },
+  {
+    "id": 44,
+    "es": "empresa",
+    "en": "company",
+    "category": "work_school",
+    "level": 1
+  },
+  {
+    "id": 45,
+    "es": "cliente",
+    "en": "client",
+    "category": "work_school",
+    "level": 1
+  },
+  {
+    "id": 46,
+    "es": "presentación",
+    "en": "presentation",
+    "category": "work_school",
+    "level": 1
+  },
+  {
+    "id": 47,
+    "es": "contrato",
+    "en": "contract",
+    "category": "work_school",
+    "level": 1
+  },
+  {
+    "id": 48,
+    "es": "Ayer fui al trabajo.",
+    "en": "Yesterday I went to work.",
+    "category": "past_future",
+    "level": 1
+  },
+  {
+    "id": 49,
+    "es": "Mañana tendremos una reunión.",
+    "en": "Tomorrow we will have a meeting.",
+    "category": "past_future",
+    "level": 1
+  },
+  {
+    "id": 50,
+    "es": "El año pasado",
+    "en": "Last year",
+    "category": "past_future",
+    "level": 1
+  },
+  {
+    "id": 51,
+    "es": "El próximo año",
+    "en": "Next year",
+    "category": "past_future",
+    "level": 1
+  },
+  {
+    "id": 52,
+    "es": "Hace dos días",
+    "en": "Two days ago",
+    "category": "past_future",
+    "level": 1
+  },
+  {
+    "id": 53,
+    "es": "En el futuro",
+    "en": "In the future",
+    "category": "past_future",
+    "level": 1
+  }
 ]
