@@ -1,36 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spanish Flashcards</title>
+
+<style>
+body {
+  font-family: -apple-system;
+  background: #111;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+.screen { padding: 20px; }
+
+button {
+  width: 100%;
+  padding: 14px;
+  margin: 8px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  background: #222;
+  color: white;
+}
+
+.card {
+  background: #1c1c22;
+  padding: 60px 20px;
+  font-size: 28px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+</style>
+</head>
+
+<body>
+
+<div class="screen">
+
+  <div class="topbar">
+    <div id="counter">Loading...</div>
+  </div>
+
+  <div id="card" class="card">Loading...</div>
+
+  <button onclick="flipCard()">Flip</button>
+  <button onclick="prevCard()">Prev</button>
+  <button onclick="nextCard()">Next</button>
+  <button onclick="shuffle()">🔀 Shuffle</button>
+
+</div>
+
+<script>
 let words = [];
-let filtered = [];
 let current = 0;
 let flipped = false;
-let selectedCategory = "";
 
 fetch("words.json")
 .then(r=>r.json())
 .then(data=>{
   words = data;
+  shuffle();
 });
 
-function selectCategory(cat){
-  selectedCategory = cat;
-  filtered = words.filter(w => w.category === cat);
-  shuffle();
-
-  document.getElementById("menu").classList.add("hidden");
-  document.getElementById("study").classList.remove("hidden");
-}
-
 function updateCard(){
-  if(!filtered.length){
+  if(!words.length){
     document.getElementById("card").textContent = "No words found.";
     return;
   }
 
-  const word = filtered[current];
+  const word = words[current];
+
   document.getElementById("card").textContent =
     flipped ? word.en : word.es;
 
   document.getElementById("counter").textContent =
-    (current + 1) + " / " + filtered.length;
+    (current + 1) + " / " + words.length;
 }
 
 function flipCard(){
@@ -39,28 +92,28 @@ function flipCard(){
 }
 
 function nextCard(){
-  current = (current + 1) % filtered.length;
+  current = (current + 1) % words.length;
   flipped = false;
   updateCard();
 }
 
 function prevCard(){
-  current = (current - 1 + filtered.length) % filtered.length;
+  current = (current - 1 + words.length) % words.length;
   flipped = false;
   updateCard();
 }
 
 function shuffle(){
-  for (let i = filtered.length - 1; i > 0; i--) {
+  for (let i = words.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [filtered[i], filtered[j]] = [filtered[j], filtered[i]];
+    [words[i], words[j]] = [words[j], words[i]];
   }
+
   current = 0;
   flipped = false;
   updateCard();
 }
+</script>
 
-function exitStudy(){
-  document.getElementById("study").classList.add("hidden");
-  document.getElementById("menu").classList.remove("hidden");
-}
+</body>
+</html>
