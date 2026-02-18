@@ -1,0 +1,12 @@
+[
+  { "es": "hola", "en": "hello" },
+  { "es": "gracias", "en": "thank you" },
+  { "es": "por favor", "en": "please" },
+  { "es": "buenos días", "en": "good morning" },
+  { "es": "¿Dónde está el baño?", "en": "Where is the bathroom?" },
+  { "es": "el aeropuerto", "en": "airport" },
+  { "es": "el hotel", "en": "hotel" },
+  { "es": "la reunión", "en": "meeting" },
+  { "es": "el contrato", "en": "contract" },
+  { "es": "el presupuesto", "en": "budget" }
+]

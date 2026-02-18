@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spanish Flashcards</title>
+<meta name="theme-color" content="#111111">
+<link rel="manifest" href="manifest.json">
+
+<style>
+body {
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  background:#0f0f12;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.container {
+  width:90%;
+  max-width:600px;
+  text-align:center;
+}
+
+.card {
+  background:#1c1c22;
+  border-radius:20px;
+  padding:40px 20px;
+  font-size:32px;
+  font-weight:600;
+  min-height:150px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  transition:transform .2s ease;
+}
+
+.card:active {
+  transform:scale(.98);
+}
+
+.controls {
+  margin-top:20px;
+  display:flex;
+  gap:10px;
+}
+
+button {
+  flex:1;
+  padding:12px;
+  font-size:16px;
+  border:none;
+  border-radius:12px;
+  background:#2a2a33;
+  color:white;
+}
+
+button:active {
+  transform:scale(.97);
+}
+
+.counter {
+  margin-top:10px;
+  opacity:.6;
+  font-size:14px;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+  <div id="card" class="card">Loading...</div>
+
+  <div class="controls">
+    <button onclick="prevCard()">Prev</button>
+    <button onclick="flipCard()">Flip</button>
+    <button onclick="nextCard()">Next</button>
+  </div>
+
+  <div id="counter" class="counter"></div>
+</div>
+
+<script>
+let words = [];
+let currentIndex = 0;
+let flipped = false;
+
+// Load words
+fetch("words.json")
+  .then(res => res.json())
+  .then(data => {
+    words = data;
+    updateCard();
+  });
+
+// Update display
+function updateCard() {
+  if (!words.length) return;
+
+  const card = document.getElementById("card");
+  const counter = document.getElementById("counter");
+
+  card.textContent = flipped
+    ? words[currentIndex].en
+    : words[currentIndex].es;
+
+  counter.textContent = (currentIndex + 1) + " / " + words.length;
+}
+
+// Flip
+function flipCard() {
+  flipped = !flipped;
+  updateCard();
+}
+
+// Next
+function nextCard() {
+  currentIndex = (currentIndex + 1) % words.length;
+  flipped = false;
+  updateCard();
+}
+
+// Prev
+function prevCard() {
+  currentIndex = (currentIndex - 1 + words.length) % words.length;
+  flipped = false;
+  updateCard();
+}
+
+// Tap card to flip
+document.getElementById("card").addEventListener("click", flipCard);
+
+// Service Worker (offline)
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js");
+}
+</script>
+
+</body>
+</html>
